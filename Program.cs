@@ -66,7 +66,7 @@ namespace dithering
                     Color Boja;
                     Color sledeci;
 
-                    if (Math.Abs(razlikaPixela) > Odbacivanje)
+                    if (Math.Abs(razlikaPixela) >= Odbacivanje)
                     {
                         if (x + 1 < slika.Width)
                         {
